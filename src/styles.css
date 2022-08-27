@@ -1,0 +1,77 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background-color: rgb(23, 32, 84);
+}
+.contanier {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 10px;
+  margin: 12% 28%;
+  border: 5px solid white;
+  border-radius: 15px;
+  padding: 30px 20px;
+  width: 650px;
+  box-shadow: 10px 10px 14px;
+}
+.left_section {
+  background-color: #5b5fce;
+  position: relative;
+  padding: 10px;
+  box-shadow: 0px 10px 14px;
+}
+.left_section input {
+  margin: 30% auto 0 auto;
+  background-color: #182067;
+  color: white;
+  font-size: 1.2rem;
+  padding: 10px;
+  font-weight: 900;
+  border-radius: 20px;
+}
+.left_section button {
+  background-color: #60f975;
+  color: rgb(9, 4, 4);
+  margin: 10px auto;
+  padding: 10px 10px;
+  border-radius: 15px;
+  font-size: 1.2rem;
+  font-weight: 900;
+  width: 100%;
+}
+.left_section button:hover {
+  box-shadow: 10px 10px 14px;
+  cursor: pointer;
+}
+.right_section {
+  background-color: #3148b2;
+  box-shadow: 10px 10px 14px;
+}
+.right_section .description_section {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  padding: 20px;
+}
+.right_section .description_section h1 {
+  color: white;
+  font-size: 0.8rem;
+}
+.right_section .description_section h2 {
+  color: white;
+  font-size: 0.9em;
+}
+.right_section .temp_section {
+  margin: 10px 20px;
+  font-size: 1.2rem;
+  padding: 5px;
+  box-shadow: 10px 10px 14px;
+  background-color: rgba(198, 169, 169, 0.508);
+}
+.right_section .location_section h1 {
+  color: white;
+  font-weight: 900;
+}
