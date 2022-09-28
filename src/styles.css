@@ -25,7 +25,7 @@ body {
 }
 .left_section input {
   margin: 30% auto 0 auto;
-  background-color: #182067;
+  background-color: rgb(4, 14, 57);
   color: white;
   font-size: 1.2rem;
   padding: 10px;
@@ -33,7 +33,7 @@ body {
   border-radius: 20px;
 }
 .left_section button {
-  background-color: #60f975;
+  background-color: rgb(12, 247, 255);
   color: rgb(9, 4, 4);
   margin: 10px auto;
   padding: 10px 10px;
@@ -41,9 +41,11 @@ body {
   font-size: 1.2rem;
   font-weight: 900;
   width: 100%;
+  transition: all 300ms ease-in-out;
 }
 .left_section button:hover {
-  box-shadow: 10px 10px 14px;
+  color: white;
+  background: rgb(2, 6, 63);
   cursor: pointer;
 }
 .right_section {
@@ -57,11 +59,11 @@ body {
   padding: 20px;
 }
 .right_section .description_section h1 {
-  color: white;
+  color: rgb(167, 161, 161);
   font-size: 0.8rem;
 }
 .right_section .description_section h2 {
-  color: white;
+  color: rgb(173, 169, 169);
   font-size: 0.9em;
 }
 .right_section .temp_section {
@@ -74,4 +76,12 @@ body {
 .right_section .location_section h1 {
   color: white;
   font-weight: 900;
+}
+@media screen and (max-width: 700px) {
+  .contanier {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    width: 70%;
+  }
 }
